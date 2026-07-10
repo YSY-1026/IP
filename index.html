@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PABPC1 Multi-Omics Analysis Report | 多组学整合分析报告</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  min-height:100vh; display:flex; align-items:center; justify-content:center; }
+.container { text-align:center; max-width:800px; padding:40px; }
+h1 { color:#fff; font-size:2.2em; margin-bottom:10px; }
+.subtitle { color:#a0a0c0; font-size:1.1em; margin-bottom:40px; line-height:1.6; }
+.cards { display:flex; gap:30px; justify-content:center; flex-wrap:wrap; }
+.card { background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15);
+  border-radius:16px; padding:40px 30px; width:300px; cursor:pointer;
+  transition:all 0.3s ease; text-decoration:none; color:inherit; }
+.card:hover { background:rgba(255,255,255,0.15); transform:translateY(-4px);
+  box-shadow:0 12px 40px rgba(0,0,0,0.3); }
+.card h2 { color:#fff; font-size:1.5em; margin-bottom:15px; }
+.card .lang { font-size:3em; margin-bottom:10px; }
+.card p { color:#b0b0d0; font-size:0.95em; line-height:1.5; }
+.card .badge { display:inline-block; background:rgba(100,150,255,0.2);
+  color:#8ab4f8; padding:4px 12px; border-radius:12px; font-size:0.85em; margin-top:10px; }
+.meta { color:#8080a0; margin-top:40px; font-size:0.85em; }
+.meta a { color:#8ab4f8; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>PABPC1 Multi-Omics Analysis Report</h1>
+<p class="subtitle">PABPC1 多组学整合分析报告<br>
+shPABPC1 CML Cells | CLIP-seq + RNA-seq + Ribo-seq + RIP-seq<br>
+TCGA + DepMap + Metascape Cross-Validation</p>
+
+<div class="cards">
+<a href="PABPC1_Report_CN.html" class="card">
+  <div class="lang">🇨🇳</div>
+  <h2>中文完整报告</h2>
+  <p>14 章节 · 全中文撰写<br>含全部图表解读与推导</p>
+  <span class="badge">推荐中文读者</span>
+</a>
+
+<a href="PABPC1_Report_EN.html" class="card">
+  <div class="lang">🇬🇧</div>
+  <h2>English Report</h2>
+  <p>14 Sections · Full English<br>All figures & interpretations</p>
+  <span class="badge">For English Readers</span>
+</a>
+</div>
+
+<p class="meta">
+  Data: <a href="https://xenabrowser.net/">TCGA Xena</a> ·
+  <a href="https://depmap.org/">DepMap 26Q1</a> ·
+  <a href="https://metascape.org/">Metascape</a><br>
+  Generated: 2026-07-09 · D:/Desktop/YSY_data_full
+</p>
+</div>
+</body>
+</html>
